@@ -1,0 +1,1 @@
+import*as t from"../node_modules/firebase-functions/lib/v1/index.js";var n=async(f,o)=>{o.send("func1")};var s=t.https.onRequest(n);import*as p from"../node_modules/firebase-functions/lib/v1/index.js";var e=async(f,o)=>{o.send("func22222")};var r=p.https.onRequest(e);var A={func1Api:s,func2Api:r};export{A as api};
